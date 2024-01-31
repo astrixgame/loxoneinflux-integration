@@ -1,0 +1,12 @@
+{
+    "loxoneAddr": "192.168.5.205:8080",
+    "loxoneUser": "Username",
+    "loxonePass": "SuperSecretPassword",
+
+    "influxAddr": "127.0.0.1:8086",
+    "influxUser": "none",
+    "influxPass": "none",
+    "influxData": "ddb",
+
+    "lCheckDate": 0
+}
