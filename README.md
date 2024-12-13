@@ -1,19 +1,30 @@
-# Loxone Stats Logging into InfluxDB
-This program can log stats from Loxone into InfluxDB coded in Node.js.
-<hr>
-<h2>How to download and start</h2>
+# Loxone-InfluxDB integration
+Loxone stats integration into InfluxDB via logging service.
 
-```cmd
-git clone https://github.com/astrixgame/log-loxone-influx.git
-```
-```cmd
-node .
-```
-<hr>
-<h2>How to install libraries</h2>
+## 🧐 Features    
+- Real-time logging measurements
+- Fast & reliable
+- Easy to setup
 
-```cmd
-npm i request
-npm i fs
-npm i lxcommunicator
+
+## 🛠️ Install Dependencies
+Install required depedencies via npm
+```bash
+npm i request fs lxcommunicator
 ```
+
+
+## 🧑🏻‍💻 Usage
+Start logging service using
+```bash
+node logger.js
+```
+
+
+## 🛠️ Tech Stack
+- [Node.js](https://nodejs.org/)
+
+
+## ➤ License
+Distributed under the Apache License. See [LICENSE](LICENSE) for more information.
+        
